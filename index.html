@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Eletrônico</title>
+</head>
+<body>
+    <div>
+        <h1>Simulador de Saque</h1>
+
+        <p>Saldo da Conta: R$ <span id="saldo"></p></span></p>
+        <p>
+            <span>Valor do Saque:</span>
+            <input type="number" id="ValorDoSaque" min = 0> 
+        
+        </p>
+        <p>
+            <span id="mensagem"></span>
+        </p>
+        <p>
+            
+            <button onclick="realizarSaque()">Sacar</button>
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
