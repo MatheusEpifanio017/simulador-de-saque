@@ -13,15 +13,24 @@
         <p>
             <span>Valor do Saque:</span>
             <input type="number" id="ValorDoSaque" min = 0> 
-        
+            
+           
         </p>
+        <p><span id="mensagem"></span>
+        </p>
+
         <p>
-            <span id="mensagem"></span>
+            <span>Valor de Deposito:</span>
+            <input type="number" id="ValorDoDeposito" min = 1>
+
+        </p>
+        <p><span id="mensagem2"></span>
         </p>
         <p>
             
-            <button onclick="realizarSaque()">Sacar</button>
+            <button onclick="realizarSaque()">Sacar</button>          <button onclick="realizarDeposito()">Depositar</button>
         </p>
+        
     </div>
     <script src="script.js"></script>
 </body>
